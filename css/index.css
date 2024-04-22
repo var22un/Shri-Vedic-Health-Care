@@ -27,6 +27,11 @@
 font-size: 22px;
 display: none;
 }
+   h1.heading1{
+  font-size: 22px;
+  display: block;
+  color: darkgreen;
+}
 p#foot_cont{
 font-size: 10px;
 padding: 0%;
@@ -591,6 +596,9 @@ height: fit-content;
 color: #006400;
 font-size: 26px;
 text-align: center;
+}
+.heading1{
+  display: none;
 }
 #logo{
 width: 50px;
