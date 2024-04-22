@@ -1,0 +1,613 @@
+@media(max-width:450px){
+
+    *{
+      padding: 0;
+      margin: 0;
+      scrollbar-width: none;
+      
+  }
+  *:focus{
+  box-shadow: none !important;
+}
+  body{
+      scrollbar-width: none;
+      overflow-x: hidden;
+      font-family: sans-serif;
+  }
+ div#contact_box{
+    margin: auto;
+   
+   
+  }
+  h1#conte{
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  h1.heading11{
+font-size: 22px;
+display: none;
+}
+p#foot_cont{
+font-size: 10px;
+padding: 0%;
+margin: 10px;
+}
+   div.box1{
+      display: block;
+      max-height:fit-content;
+    }
+    p.name_2{
+font-size: 10px;
+margin: 0;
+padding: 0;
+}
+.name_box{
+max-width: 400px;
+ max-height:  fit-content;
+ 
+  margin-top: 30px;
+  padding: 15px;
+   
+    
+  
+  }
+  .name_box_pic{
+    display: none;
+    width: 400px;
+    height: 300px;
+   border-radius: 30px;
+    margin-top: 50px;
+    background-image: url(../image/ezgif-7-fa62b9e285.gif);
+      background-size: 100% 100%;
+  }
+
+  /* start About us codings */
+div.about_Us{
+display: block;
+
+justify-content: center;
+align-items: center;
+height: 600px;
+gap: 10px;
+
+
+}
+div.about_content{
+max-width: 100%;
+max-height: 1000px;
+padding: 10px;
+
+
+}
+div, p#cont{
+font-size: 13px;
+
+
+}
+div.about_pic1{
+max-width: 100%;
+margin: auto;
+max-height: 240px;
+background-image: url(../image/yoga-light_drb.gif);
+background-size: 100% 100%;
+border-radius: 30px;
+}
+
+div.servi_box{
+max-height:800px;
+display: block;
+;
+
+}
+div.servi_box2{
+max-height:800px;
+
+
+
+display: block;
+
+}
+div.servi_content{
+max-width: 300px;
+max-height: 200px;
+border: solid green;
+border-radius: 20px;
+margin: auto;
+padding: 10px;
+margin-top: 20px;
+
+}
+/* servi_pics css coding */
+
+div.pics{
+width: 80px;
+height: 60px ;
+background-image: url(../image/liver-disease-10248850-8293298.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics1{
+width: 80px;
+height: 50px ;
+background-image: url(../image/spinal-cord-pain-4456086-3698478.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics2{
+width: 80px;
+height: 50px ;
+background-image: url(../image/6501971.wmebp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics3{
+width: 80px;
+height: 50px ;
+background-image: url(../image/sinus-infection-8088076-6556104.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics4{
+width: 80px;
+height: 50px ;
+background-image: url(../image/7301795.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics5{
+width: 80px;
+height: 50px ;
+background-image: url(../image/varicose-and-vein-thrombosis-treatment-leg-tiny-doctor-with-drugs-and-medical-instruments-medication-foot-with-diseased-veins-examination-blood-vessels-and-veins-health-care-illustration-vector.jpg);
+background-size: 100% 100%;
+margin: auto;
+}
+li#cont{
+font-size: 10px;
+
+
+}
+
+/* end of servi_pic css coding */
+.foot{
+text-align: center;
+ background-color: #3b7a3f;
+  max-height: fit-content;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   margin-top: 30%;
+  
+}
+
+/* working hours coding starts */
+div.working{
+max-height: fit-content;
+
+display: block;
+justify-content: center;
+align-items: center;
+
+}
+div.working_hours{
+width: 200px;
+height: 120px;
+border: solid green;
+border-style: dotted;
+border-radius: 30px;
+text-align: center;
+padding: 10px;
+margin: auto;
+margin-top: 20px;
+}
+/* end of working hours coding */
+h1#tret{
+margin-top: 90px;
+}
+  }
+
+  /* media max-width 330 */
+  @media(max-width:380px){
+
+*{
+padding: 0;
+margin: 0;
+scrollbar-width: none;
+
+}
+*:focus{
+box-shadow: none !important;
+}
+body{
+scrollbar-width: none;
+overflow-x: hidden;
+font-family: sans-serif;
+}
+
+div.box1{
+display: block;
+max-height: fit-content;
+}
+p.name_2{
+font-size: 10px;
+margin: 0;
+padding: 0;
+}
+.name_box{
+max-width: 100%;
+
+max-height:  fit-content;
+
+margin-top: 30px;
+padding: 15px;
+
+
+
+
+}
+h1.heading11{
+font-size: 22px;
+display: none;
+}
+h5,h2.heading{
+font-size: 17px;
+}
+.name_box_pic{
+display: none;
+width: 400px;
+height: 300px;
+border-radius: 30px;
+margin-top: 50px;
+background-image: url(../image/ezgif-7-fa62b9e285.gif);
+background-size: 100% 100%;
+}
+
+/* start About us codings */
+div.about_Us{
+display: block;
+
+justify-content: center;
+align-items: center;
+height: 600px;
+gap: 10px;
+
+
+}
+div.about_content{
+max-width: 100%;
+max-height: fit-content;
+padding: 10px;
+
+
+}
+div, p#cont{
+font-size: 13px;
+
+
+}
+div.about_pic1{
+max-width: 100%;
+margin: auto;
+max-height: 240px;
+background-image: url(../image/yoga-light_drb.gif);
+background-size: 100% 100%;
+border-radius: 30px;
+}
+
+div.servi_box{
+max-height:800px;
+display: block;
+;
+
+}
+div.servi_box2{
+max-height:800px;
+
+
+
+display: block;
+
+}
+div.servi_content{
+max-width: 300px;
+max-height: 200px;
+border: solid green;
+border-radius: 20px;
+margin: auto;
+padding: 10px;
+margin-top: 20px;
+
+}
+/* servi_pics css coding */
+
+div.pics{
+width: 80px;
+height: 60px ;
+background-image: url(../image/liver-disease-10248850-8293298.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics1{
+width: 80px;
+height: 50px ;
+background-image: url(../image/spinal-cord-pain-4456086-3698478.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics2{
+width: 80px;
+height: 50px ;
+background-image: url(../image/6501971.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics3{
+width: 80px;
+height: 50px ;
+background-image: url(../image/sinus-infection-8088076-6556104.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics4{
+width: 80px;
+height: 50px ;
+background-image: url(../image/7301795.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics5{
+width: 80px;
+height: 50px ;
+background-image: url(../image/varicose-and-vein-thrombosis-treatment-leg-tiny-doctor-with-drugs-and-medical-instruments-medication-foot-with-diseased-veins-examination-blood-vessels-and-veins-health-care-illustration-vector.jpg);
+background-size: 100% 100%;
+margin: auto;
+}
+li#cont{
+font-size: 10px;
+
+
+}
+
+/* end of servi_pic css coding */
+.foot{
+text-align: center;
+background-color: #3b7a3f;
+max-height: fit-content;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+
+}
+h1#tret{
+margin-top: 90px;
+}
+}
+  /* end of max-width 330 */
+
+  /* css */
+
+  *{
+    padding: 0;
+    margin: 0;
+    scrollbar-width: none;
+    
+}
+*:focus{
+box-shadow: none !important;
+}
+body{
+    scrollbar-width: none;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+
+.box1{
+  margin-top: 60px;
+    display: flex;
+    
+    
+    height: fit-content;
+    background-image: url(../image/v.jpg);
+    background-size: 100% 100%;
+   
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+ 
+   
+}
+
+.topnav{
+    background-color: rgba(96, 161, 74, 0.534);
+    backdrop-filter: blur(5px);
+    font-weight: bold;
+}
+
+.name_box{
+  width: 500px;
+  height: fit-content;
+  padding-top: 45px;
+  margin-top: 50px;
+  
+
+
+}
+.name_box_pic{
+  width: 400px;
+  height: 300px;
+ border-radius: 30px;
+  margin-top: 50px;
+  
+  background-image: url(../image/8094486.webp);
+    background-size: 100% 100%;
+}
+.name_2{
+font-size: 15px;
+margin: 0;
+padding: 0;
+}
+
+.servi_box{
+height:fit-content;
+
+margin: auto;
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+
+}
+.servi_box2{
+height:fit-content;
+
+margin: auto;
+margin-top: 20px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+.servi_content{
+width: 350px;
+height: 280px;
+border: solid green;
+box-shadow: 0px 0px 10px #07c514;
+border-radius: 20px;
+padding: 10px;
+
+}
+.servi_content:hover{
+box-shadow: 0px 0px 15px green;
+transition: 0.6s;
+cursor: pointer;
+}
+#cont{
+font-size: 15px;
+
+
+}
+
+/* servi_pics css coding */
+
+.pics{
+width: 150px;
+height: 100px ;
+background-image: url(../image/liver-disease-10248850-8293298.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+.pics1{
+width: 150px;
+height: 100px ;
+background-image: url(../image/spinal-cord-pain-4456086-3698478.png);
+background-size: 100% 100%;
+margin: auto;
+}
+.pics2{
+width: 150px;
+height: 100px ;
+background-image: url(../image/6501971.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+.pics3{
+width: 150px;
+height: 100px ;
+background-image: url(../image/sinus-infection-8088076-6556104.png);
+background-size: 100% 100%;
+margin: auto;
+}
+.pics4{
+width: 150px;
+height: 100px ;
+background-image: url(../image/7301795.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+.pics5{
+width: 150px;
+height: 100px ;
+background-image: url(../image/varicose-and-vein-thrombosis-treatment-leg-tiny-doctor-with-drugs-and-medical-instruments-medication-foot-with-diseased-veins-examination-blood-vessels-and-veins-health-care-illustration-vector.jpg);
+background-size: 100% 100%;
+margin: auto;
+}
+
+/* end of servi_pic css coding */
+
+/* working hours coding starts */
+.working{
+height: 200px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+.working_hours{
+width: 300px;
+height: 130px;
+border: solid green;
+border-style: dotted;
+border-radius: 30px;
+text-align: center;
+padding: 10px;
+}
+/* end of working hours coding */
+/* start About us codings */
+.about_Us{
+display: flex;
+
+justify-content: center;
+align-items: center;
+height: 400px;
+gap: 10px;
+
+
+}
+.about_content{
+width: 900px;
+height: 380px;
+
+
+padding: 10px;
+
+}
+.about_pic1{
+width: 350px;
+height: 260px;
+background-image: url(../image/yoga-light_drb.gif);
+background-size: 100% 100%;
+border-radius: 30px;
+}
+.foot{
+text-align: center;
+background-color: #5d9360;
+height: fit-content;
+ padding: 20px;
+ border-top-left-radius: 50%;
+ border-top-right-radius: 50%;
+}
+.heading11{
+color: #006400;
+font-size: 26px;
+text-align: center;
+}
+#logo{
+width: 50px;
+height: 50px;
+}
+.bor_red:hover{
+border-radius: 20px;
+border: solid green;
+transition: 0.2s;
+}
+#foot_cont{
+font-size: 10px;
+}
+#conte{
+color:green; 
+text-align: center;
+font-size: 26px; 
+margin: 0; 
+padding: 0%;
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</head>
+
+<style>
+
+
+*{
+        padding: 0;
+        margin: 0;
+        scrollbar-width: none;
+        
+    }
+    *:focus{
+    box-shadow: none !important;
+}
+    body{
+        scrollbar-width: none;
+        font-family: sans-serif;
+    }
+  
+   
+    .topnav{
+        background-color: rgba(0, 128, 0, 0.534);
+        backdrop-filter: blur(5px);
+    }
+/* footer coding */
+.foot{
+  text-align: center;
+   background-color:#5d9360;
+    height: fit-content;
+     padding: 20px;
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+ }
+ /* end of footer coding */
+ .about{
+    height: 380px;
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+   
+ }
+ .about_pic{
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/file.png);
+    background-size: 100% 100%;
+    margin-top: 60px;
+ }
+ .about_content{
+    
+    width: 900px;
+    height: 350px;
+    padding: 10px;
+ }
+ /* dr box coding start */
+ .dr_box{
+    display: flex;
+   
+    padding: 10px;
+    gap: 10px;
+ }
+ .dr_content1{
+    width: 600px;
+    height: fit-content;
+    padding: 10px;
+    
+ }
+ .dr_content2{
+   
+    height: fit-content;
+    padding: 10px;
+    
+ }
+ .dr_pic1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../image/Remove\ background\ project.png);
+    background-size: 100% 100%;
+ }
+
+ @media(max-width : 450px){
+  body{
+    overflow-x: hidden;
+  }
+
+  *{
+        padding: 0;
+        margin: 0;
+        scrollbar-width: none;
+        
+    }
+    *:focus{
+    box-shadow: none !important;
+}
+  div.about{
+    height: fit-content;
+    width: 100%;
+    
+    display: block;
+    justify-content: center;
+    padding: 0px;
+    gap: 20px;
+   
+ }
+ div.about_pic{
+   max-width:  100px;
+    max-height: 100px;
+    background-image: url(../image/file.png);
+    background-size: 100% 100%;
+    margin-top:0%;
+    margin: auto;
+ }
+div.about_content{
+    
+   max-width: 100%;
+    height: fit-content;
+    padding: 10px;
+ }
+ /* dr box coding start */
+ .dr_box{
+    display: block;
+   
+    padding: 10px;
+    gap: 10px;
+ }
+div.dr_content1{
+    width: 100%;
+    height: fit-content;
+    font-size: 16px;
+    padding: 10px;
+    
+ }
+ .dr_content2{
+   
+    height: fit-content;
+    padding: 10px;
+    
+ }
+ .dr_pic1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../image/Remove\ background\ project.png);
+    background-size: 100% 100%;
+ }
+ h1.heading11{
+font-size: 22px;
+display: none;
+}
+p#foot_cont{
+  font-size: 10px;
+  padding: 0%;
+  margin: 10px;
+}
+
+ }
+ .heading11{
+  color: #006400;
+  font-size: 26px;
+ text-align: center;
+}
+#logo{
+  width: 50px;
+  height: 50px;
+}
+</style>
+<body>
+    
+    <div >
+
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top topnav ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../image/image-4-qifis652yu40wufxatzo2h2fn60u6eowxri8d87iu8 (1).png" alt="">
+              </a>
+              <h1 class="heading11" ><b>Shri Vedic Health Care</b></h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item px-3">
+                    <a class=" nav-link active " aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="../Treatments/Treatments.html">Treatments</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="About.html">About Us</a>
+                  </li>
+                 
+                  
+
+                  <li class="nav-item px-3 ">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-phone" style="color: #0c0d0d;"></i> Online Consultation  1245639870</a>
+                   
+                  </li>
+                
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
+       </div>
+<br>
+<br><br>
+<br>
+<br>
+<h1 style="color:green; text-align: center;"> About Us </h1>
+<hr style="width: 100px; color: green; margin: auto; border: 2px solid greenyellow;">
+<div class="container about">
+<div class="about_pic"></div>
+<div class="about_content">
+    <h2 style="color: darkgreen;"><b>Shri Vedic Health Care</b></h2>
+    <p>Your trusted partner in holistic health and wellness. Nestled in the serene surroundings of Model Colony, Haridwar, Uttarakhand, we are committed to providing comprehensive healthcare services that are rooted in the ancient wisdom of Ayurveda.</p>
+<p>At Shri Vedic Health Care, we believe in the power of natural healing. Our team of dedicated professionals is led by a highly experienced doctor who is passionate about promoting health and well-being through Ayurvedic practices. Our doctor’s extensive knowledge and expertise in Ayurveda have made us a preferred choice for individuals seeking natural and effective healthcare solutions.</p>
+<p><b>Our clinic at 504, Model Colony, Haridwar, Uttarakhand-249407,</b> is equipped with state-of-the-art facilities where we offer a wide range of Ayurvedic treatments and therapies. We are dedicated to providing personalized care to our patients, understanding their unique health needs and offering solutions that bring about a positive change in their lives.</p>
+</div>
+
+</div>
+<div class="container ">
+    <p>Your trusted partner in holistic health and wellness. Nestled in the serene surroundings of Model Colony, Haridwar, Uttarakhand, we are committed to providing comprehensive healthcare services that are rooted in the ancient wisdom of Ayurveda.</p>
+<p>At Shri Vedic Health Care, we are more than just a healthcare provider. We are a community dedicated to promoting health and wellness. We invite you to join us on this journey towards a healthier and happier life.</p>
+<p><b>Thank you for choosing Shri Vedic Health Care. We look forward to serving you.</b></p>
+</div>
+<br>
+
+<!-- dr box -->
+<h1 style="color:green; text-align: center;"> Meet Our Doctors</h1>
+<hr style="width: 100px; color: green; margin: auto; border: 2px solid greenyellow;">
+<br>
+<br>
+<div class="container dr_box">
+
+    <div class="dr_content1">
+        <h2 style="color: darkgreen; text-align: center;"><b>Dr Sudhindra Sharma</b></h2>
+        <p style="text-align: center; font-weight: bold;">B.A.M.S, PGDYS</p>
+        <p>Step into the world of holistic wellness and rejuvenation with Dr. Sudhindra Sharma, a distinguished Ayurveda and Panchkarma Specialist, who has been the guiding light on the path to health and vitality for over a decade. Dr. Sharma, a luminary in the field of Ayurveda, brings a wealth of experience, a treasure trove of knowledge, and a commitment to the ancient healing art of Ayurveda. With 13 years of unwavering dedication, Dr. Sharma has become a beacon of holistic well-being, earning the trust and gratitude of countless individuals seeking natural remedies and profound healing.</p>
+        </div>
+    <div class="dr_pic1"></div>
+
+</div>
+<div class="container" style="padding: 20px;">
+    <p>Dr. Sharma’s journey began with a rigorous educational foundation, culminating in the attainment of his B.A.M.S (Bachelor of Ayurvedic Medicine and Surgery) degree and a PGDYS (Post Graduate Diploma in Yoga and Naturopathy). This academic excellence serves as a testament to his deep-rooted passion for Ayurveda and its therapeutic potential. Dr. Sharma’s unwavering commitment to Ayurveda, coupled with his extensive knowledge, empowers him to offer a unique blend of traditional wisdom and modern science to his patients.</p>
+<p>Presently, Dr. Sharma practices his art at the esteemed Shri Vedic Health Care, a sanctuary of holistic healing nestled in the heart of Haridwar, Uttarakhand. </p>
+   <p>This center stands as a testament to Dr. Sharma’s vision of providing a holistic approach to health, where ancient wisdom converges with contemporary wellness practices. At Shri Vedic Health Care, we believe that health is not merely the absence of disease but the harmonious balance of body, mind, and spirit.</p>
+   <p>Our array of services at Shri Vedic Health Care encompasses a wide spectrum of ailments and conditions. Dr. Sharma specializes in addressing liver diseases, offering holistic treatments to restore liver health and vitality. For those suffering from the debilitating effects of slip disc, Dr. Sharma’s expertise in Ayurvedic therapies provides hope and healing. Metabolic syndrome, a modern-day health challenge, finds its natural remedy in our clinic, where we work towards restoring metabolic balance.</p> 
+<p>Chronic conditions like sinusitis and migraine, often plaguing individuals with relentless discomfort, are meticulously treated under Dr. Sharma’s guidance. His holistic approach addresses the root causes of these ailments, offering lasting relief. Insomnia and sleep apnea, which disrupt the restorative power of sleep, are approached with a blend of Ayurvedic wisdom and modern insights.</p>
+<p>At Shri Vedic Health Care, we also extend our healing touch to conditions such as varicosities, menstrual issues, pre and post-menopause management, and infertility. Dr. Sharma’s expertise in these areas empowers individuals to regain control of their health and embrace a life of wellness. Our specialized approach to infertility includes the ancient Garbhadhana ritual, a profound ceremony that seeks divine blessings for a healthy and auspicious conception.</p>
+<p>The address of our healing haven is 504, Model colony, Haridwar, Uttarakhand-249407, a place where ancient traditions meet modern well-being. Shri Vedic Health Care is not just a healthcare center; it is a sanctuary of transformation, where individuals embark on a journey towards holistic health, rejuvenation, and self-discovery.</p>
+<p>Dr. Sudhindra Sharma’s commitment to your well-being extends beyond the boundaries of conventional medicine. He is a torchbearer of Ayurveda, an art that seeks to harmonize your body, mind, and spirit. Shri Vedic Health Care is your gateway to the timeless wisdom of Ayurveda and the profound healing potential it holds. Welcome to a world where health is not just a destination but a way of life. Welcome to Shri Vedic Health Care, where your journey to holistic wellness begins.</p>
+<p></p>
+  </div>
+
+<hr style="width: 100%; border: solid lawngreen; border-radius: 30px;">
+
+<!-- dr jyoti sudhindra -->
+<div class="container dr_box">
+    <div class="dr_pic"></div>
+    <div class="dr_content2">
+        <h2 style="color: darkgreen; text-align: center;"><b>Dr. Jyotii Sudhindra</b></h2>
+        <p style="text-align: center; font-weight: bold;">B.A.M.S, PGDYS</p>
+        <p>At Shri Vedic Health Care, we believe in the power of natural healing. Our team of dedicated professionals is led by a highly experienced doctor who is passionate about promoting health and well-being through Ayurvedic practices. Our doctor’s extensive knowledge and expertise in Ayurveda have made us a preferred choice for individuals seeking natural and effective healthcare solutions.</p>
+        <p>Our clinic at 504, Model Colony, Haridwar, Uttarakhand-249407, is equipped with state-of-the-art facilities where we offer a wide range of Ayurvedic treatments and therapies. We are dedicated to providing personalized care to our patients, understanding their unique health needs and offering solutions that bring about a positive change in their lives.</p>
+       <p>Our array of services at Shri Vedic Health Care encompasses a wide spectrum of ailments and conditions. Dr. Jyotii specializes in addressing liver diseases, offering holistic treatments to restore liver health and vitality. For those suffering from the debilitating effects of slip disc, Dr. Jyotii’s expertise in Ayurvedic therapies provides hope and healing. Metabolic syndrome, a modern-day health challenge, finds its natural remedy in our clinic, where we work towards restoring metabolic balance.</p>
+        </div>
+   
+
+</div>
+<div class="container" style="padding: 20px;">
+    <p>Dr. Sharma’s journey began with a rigorous educational foundation, culminating in the attainment of his B.A.M.S (Bachelor of Ayurvedic Medicine and Surgery) degree and a PGDYS (Post Graduate Diploma in Yoga and Naturopathy). This academic excellence serves as a testament to his deep-rooted passion for Ayurveda and its therapeutic potential. Dr. Sharma’s unwavering commitment to Ayurveda, coupled with his extensive knowledge, empowers him to offer a unique blend of traditional wisdom and modern science to his patients.</p>
+<p>Presently, Dr. Sharma practices his art at the esteemed Shri Vedic Health Care, a sanctuary of holistic healing nestled in the heart of Haridwar, Uttarakhand. </p>
+ <p>Chronic conditions like sinusitis and migraine, often plaguing individuals with relentless discomfort, are meticulously treated under Dr. Jyotii’s guidance. His holistic approach addresses the root causes of these ailments, offering lasting relief. Insomnia and sleep apnea, which disrupt the restorative power of sleep, are approached with a blend of Ayurvedic wisdom and modern insights.</p>
+ <p>At Shri Vedic Health Care, we also extend our healing touch to conditions such as varicosities, menstrual issues, pre and post-menopause management, and infertility. Dr. Jyotii’s expertise in these areas empowers individuals to regain control of their health and embrace a life of wellness. Our specialized approach to infertility includes the ancient Garbhadhana ritual, a profound ceremony that seeks divine blessings for a healthy and auspicious conception.</p>
+ <p>Dr. Jyotii is dedicated to your well-being, transcending the limits of conventional medicine. As a passionate advocate for Ayurveda, she embodies the ancient art that strives to synchronize your body, mind, and spirit. Shri Vedic Health Care stands as the portal to the timeless wisdom of Ayurveda and its remarkable healing capabilities. Here, you are invited into a realm where health is not merely a destination but a comprehensive way of life. Welcome to Shri Vedic Health Care, where your holistic wellness journey commences.</p>
+ <p>Dr. Jyotii brings her expertise and profound knowledge of Ayurveda to the forefront, offering personalized care that harmonizes ancient wisdom with modern healthcare practices. She recognizes that each individual is unique, and her approach reflects this understanding, tailoring treatments to your specific needs.</p>
+ <p>At Shri Vedic Health Care, we embrace Ayurveda’s holistic philosophy, emphasizing the balance of body, mind, and spirit to achieve optimal health. Through natural therapies, dietary guidance, and personalized wellness plans, Dr. Jyotii guides you on a transformative journey towards well-being, helping you rediscover vitality and balance in your life.</p>
+ <p>With Dr. Jyotii as your guide, you embark on a path that empowers you to take charge of your health and embrace a lifestyle rooted in harmony and wellness. Welcome to a holistic wellness experience that transcends the ordinary – welcome to Shri Vedic Health Care, where your health journey is redefined</p>
+</div>
+        <!--footer start  -->
+        <footer>
+            <div class="container-fluid foot" >
+             <div style="margin: auto;  font-size: 20px;">
+               <i class="fa-brands fa-facebook mx-2"></i> <i class="fa-solid fa-location-dot mx-2"></i> <i class="fa-brands fa-square-instagram mx-2"></i> <i class="fa-brands fa-youtube mx-2"></i>
+             </div>
+            
+             <p id="foot_cont"><b>© Copyright 2024. Shri Vedic Health Care. All Rights Reserved.</b></p>
+             <p id="foot_cont">Made by Varun</p>
+            </div>
+           </footer>
+
+</body>
+</html>

@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<style>
+
+*{
+        padding: 0;
+        margin: 0;
+        scrollbar-width: none;
+        
+    }
+    *:focus{
+    box-shadow: none !important;
+}
+    body{
+        scrollbar-width: none;
+        font-family: sans-serif;
+    }
+    .box1{
+      margin-top: 100px;
+        display: flex;
+        
+        
+        height: fit-content;
+        background-image: url(../image/v.jpg);
+        background-size: cover;
+       
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+       
+     
+       
+    }
+    @media(max-width:770px){
+
+*{
+  padding: 0;
+  margin: 0;
+  scrollbar-width: none;
+  
+}
+*:focus{
+box-shadow: none !important;
+}
+body{
+  scrollbar-width: none;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+h1.heading11{
+font-size: 22px;
+display: none;
+}
+div.box1{
+  display: block;
+  max-height:fit-content;
+}
+p.name_2{
+font-size: 10px;
+margin: 0;
+padding: 0;
+}
+div.name_box{
+max-width: 100%;
+
+text-align: left;
+
+
+
+
+
+}
+.name_box_pic{
+display: none;
+width: 400px;
+height: 300px;
+border-radius: 30px;
+margin-top: 50px;
+background-image: url(image/ezgif-7-fa62b9e285.gif);
+  background-size: 100% 100%;
+}
+
+/* start About us codings */
+div.about_Us{
+display: block;
+
+justify-content: center;
+align-items: center;
+height: 600px;
+gap: 10px;
+
+
+}
+div.about_content{
+max-width: 100%;
+max-height: 1000px;
+padding: 10px;
+
+
+}
+div, p#cont{
+font-size: 13px;
+
+
+}
+div.about_pic1{
+max-width: 100%;
+margin: auto;
+max-height: 240px;
+background-image: url(image/yoga-light_drb.gif);
+background-size: 100% 100%;
+border-radius: 30px;
+}
+
+div.servi_box{
+max-height:fit-content;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap:20px;
+overflow-x: scroll;
+
+
+
+}
+div.servi_box2{
+max-height:fit-content;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap:20px;
+overflow-x: scroll;
+
+}
+div.servi_box3{
+max-height:fit-content;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap:20px;
+overflow-x: scroll;
+
+}
+div.servi_content{
+max-width: 300px;
+max-height: 200px;
+border: solid green;
+border-radius: 20px;
+margin: auto;
+padding: 10px;
+margin-top: 20px;
+
+}
+/* servi_pics css coding */
+
+div.pics{
+width: 80px;
+height: 60px ;
+background-image: url(../image/liver-disease-10248850-8293298.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics1{
+width: 80px;
+height: 50px ;
+background-image: url(../image/spinal-cord-pain-4456086-3698478.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics2{
+width: 80px;
+height: 50px ;
+background-image: url(../image/6501971.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics3{
+width: 80px;
+height: 50px ;
+background-image: url(../image/sinus-infection-8088076-6556104.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics4{
+width: 80px;
+height: 50px ;
+background-image: url(../image/7301795.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics5{
+width: 80px;
+height: 50px ;
+background-image: url(../image/varicose-veins-7982079-6367584.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics6{
+width: 80px;
+height: 50px ;
+background-image: url(../image/pregnant-checkup-5378103-4494346.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics7{
+width: 80px;
+height: 50px ;
+background-image: url(../image/woman-period-calendar-5514283-4603579.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics8{
+width: 80px;
+height: 50px ;
+background-image:url(../image/varicose-veins-7982079-6367584.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics9{
+width: 150px;
+height: 100px ;
+background-image:url(../image/sleep.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.servi_content1{
+   height: 320px;
+ width: 100%;
+  border: solid green;
+  border-radius: 20px;
+padding: 10px;
+margin: auto;
+padding-top: 20px;
+  
+ }
+li#cont{
+font-size: 10px;
+
+
+}
+li#cont3{
+  font-size: 10px;
+}
+
+/* end of servi_pic css coding */
+div.foot{
+text-align: center;
+background-color: #3b7a3f;
+max-height: fit-content;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+margin-top: 30%;
+
+}
+
+/* working hours coding starts */
+div.working{
+max-height: fit-content;
+
+display: block;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+div.working_hours{
+width: 200px;
+height: 120px;
+border: solid green;
+border-style: dotted;
+border-radius: 30px;
+text-align: center;
+padding: 10px;
+margin: auto;
+margin-top: 20px;
+}
+/* end of working hours coding */
+h1#tret{
+margin-top: 90px;
+}
+p#foot_cont{
+  font-size: 10px;
+  padding: 0%;
+  margin: 10px;
+}
+    }
+    @media(max-width:450px){
+
+*{
+  padding: 0;
+  margin: 0;
+  scrollbar-width: none;
+  
+}
+*:focus{
+box-shadow: none !important;
+}
+body{
+  scrollbar-width: none;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+h1.heading11{
+font-size: 22px;
+display: none;
+}
+div.box1{
+  display: block;
+  max-height:fit-content;
+}
+p.name_2{
+font-size: 10px;
+margin: 0;
+padding: 0;
+}
+div.name_box{
+max-width: 100%;
+
+text-align: left;
+
+
+
+
+
+}
+.name_box_pic{
+display: none;
+width: 400px;
+height: 300px;
+border-radius: 30px;
+margin-top: 50px;
+background-image: url(image/ezgif-7-fa62b9e285.gif);
+  background-size: 100% 100%;
+}
+
+/* start About us codings */
+div.about_Us{
+display: block;
+
+justify-content: center;
+align-items: center;
+height: 600px;
+gap: 10px;
+
+
+}
+div.about_content{
+max-width: 100%;
+max-height: 1000px;
+padding: 10px;
+
+
+}
+div, p#cont{
+font-size: 13px;
+
+
+}
+div.about_pic1{
+max-width: 100%;
+margin: auto;
+max-height: 240px;
+background-image: url(image/yoga-light_drb.gif);
+background-size: 100% 100%;
+border-radius: 30px;
+}
+
+div.servi_box{
+max-height:fit-content;
+display: block;
+
+
+}
+div.servi_box2{
+max-height:fit-content;
+display: block;
+
+}
+div.servi_box3{
+max-height:fit-content;
+display: block;
+
+}
+div.servi_content{
+max-width: 100%;
+max-height: 200px;
+border: solid green;
+border-radius: 20px;
+margin: auto;
+padding: 10px;
+margin-top: 20px;
+
+}
+/* servi_pics css coding */
+
+div.pics{
+width: 80px;
+height: 60px ;
+background-image: url(../image/liver-disease-10248850-8293298.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics1{
+width: 80px;
+height: 50px ;
+background-image: url(../image/spinal-cord-pain-4456086-3698478.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics2{
+width: 80px;
+height: 50px ;
+background-image: url(../iage/6501971.wmebp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics3{
+width: 80px;
+height: 50px ;
+background-image: url(../image/sinus-infection-8088076-6556104.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics4{
+width: 80px;
+height: 50px ;
+background-image: url(../image/7301795.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics5{
+width: 80px;
+height: 50px ;
+background-image: url(../image/varicose-veins-7982079-6367584.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics6{
+width: 80px;
+height: 50px ;
+background-image: url(../image/pregnant-checkup-5378103-4494346.png);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics7{
+width: 80px;
+height: 50px ;
+background-image: url(../image/woman-period-calendar-5514283-4603579.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics8{
+width: 80px;
+height: 50px ;
+background-image:url(../image/varicose-veins-7982079-6367584.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.pics9{
+width: 150px;
+height: 100px ;
+background-image:url(../image/sleep.webp);
+background-size: 100% 100%;
+margin: auto;
+}
+div.servi_content1{
+   height: 320px;
+ width: 100%;
+  border: solid green;
+  border-radius: 20px;
+padding: 10px;
+margin: auto;
+margin-top: 30px;
+
+  
+ }
+li#cont{
+font-size: 10px;
+
+
+}
+li#cont3{
+  font-size: 10px;
+}
+
+/* end of servi_pic css coding */
+div.foot{
+text-align: center;
+background-color: #3b7a3f;
+max-height: fit-content;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+margin-top: 30%;
+
+}
+
+/* working hours coding starts */
+div.working{
+max-height: fit-content;
+
+display: block;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+div.working_hours{
+width: 200px;
+height: 120px;
+border: solid green;
+border-style: dotted;
+border-radius: 30px;
+text-align: center;
+padding: 10px;
+margin: auto;
+margin-top: 20px;
+}
+/* end of working hours coding */
+h1#tret{
+margin-top: 90px;
+}
+p#foot_cont{
+  font-size: 10px;
+  padding: 0%;
+  margin: 10px;
+}
+}
+   
+    .topnav{
+        background-color:rgba(96, 161, 74, 0.534);
+        backdrop-filter: blur(5px);
+    }
+    .servi_box{
+  height:fit-content;
+  padding-top: 10px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+
+ }
+ .servi_box2{
+  height:fit-content;
+padding-top: 20px;
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+ 
+  gap: 20px;
+ }
+ .servi_box3{
+  height:fit-content;
+  padding-top: 20px;
+
+  margin: auto;
+ overflow-x: scroll;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+ }
+ .servi_content{
+  width: 350px;
+  height: 300px;
+  background-color: rgba(0, 128, 0, 0.534);
+        backdrop-filter: blur(5px);
+  border: solid green;
+  border-radius: 20px;
+padding: 10px;
+  
+ }
+ .servi_content1{
+   height: 360px;
+ width: 350px;
+ background-color: rgba(0, 128, 0, 0.534);
+        backdrop-filter: blur(5px);
+  border: solid green;
+ margin-top: 20px;
+  border-radius: 20px;
+padding: 10px;
+
+  
+ }
+ .servi_content:hover{
+  box-shadow: 0px 0px 15px green;
+  transition: 0.6s;
+  cursor: pointer;
+ }
+ .servi_content1:hover{
+  box-shadow: 0px 0px 15px green;
+  transition: 0.6s;
+  cursor: pointer;
+ }
+ #cont{
+  font-size: 15px;
+  
+  
+ }
+ #cont3{
+  font-size: 14px;
+  
+  
+ }
+
+ /* servi_pics css coding */
+
+ .pics{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/liver-disease-10248850-8293298.webp);
+  background-size: 100% 100%;
+  margin: auto;
+ }
+ .pics1{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/spinal-cord-pain-4456086-3698478.png);
+  background-size: 100% 100%;
+  margin: auto;
+ }
+ .pics2{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/6501971.webp);
+  background-size: 100% 100%;
+  margin: auto;
+ }
+ .pics3{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/sinus-infection-8088076-6556104.png);
+  background-size: 100% 100%;
+  margin: auto;
+ }
+ .pics4{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/7301795.webp);
+  background-size: 100% 100%;
+  margin: auto;
+ }
+ .pics5{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/varicose-veins-7982079-6367584.webp);
+  background-size: 100% 100%;
+  margin: auto;
+ }
+ .pics6{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/pregnant-checkup-5378103-4494346.png);
+  background-size: 100% 100%;
+  margin: auto;
+  
+ }
+ .pics7{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/woman-period-calendar-5514283-4603579.webp);
+  background-size: 100% 100%;
+  margin: auto;
+ }
+ .pics8{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/fertility.webp);
+  background-size: 100% 100%;
+  margin: auto;
+ }
+ .pics9{
+  width: 150px;
+  height: 100px ;
+  background-image: url(../image/sleep.webp);
+  background-size: 100% 100%;
+  margin: auto;
+ }
+
+ /* end of servi_pic css coding */
+
+ /* footer coding */
+ .foot{
+  text-align: center;
+   background-color: #5d9360;;
+    height:fit-content;
+     padding: 20px;
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+ }
+ .name_box{
+      width: 500px;
+      height: fit-content;
+   margin-top: 20px;
+      text-align: center;
+      color: #045809;
+      
+
+    
+    }
+ /* end of footer coding */
+
+ .heading11{
+  color: #006400;
+  font-size: 26px;
+ text-align: center;
+}
+#logo{
+  width: 50px;
+  height: 50px;
+}
+</style>
+<body>
+    
+    <div >
+
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top topnav ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../image/image-4-qifis652yu40wufxatzo2h2fn60u6eowxri8d87iu8 (1).png" alt="">
+              </a>
+              <h1 class="heading11" ><b>Shri Vedic Health Care</b></h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item px-3">
+                    <a class=" nav-link active " aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="Treatments.html">Treatments</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="../About/About.html">About Us</a>
+                  </li>
+                 
+                  
+
+                  <li class="nav-item px-3 ">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-phone" style="color: #0c0d0d;"></i> Online Consultation  1245639870</a>
+                   
+                  </li>
+                
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+
+       </div>
+
+       <div class="container-fluid box1">
+        <div class="name_box_pic"></div>
+        <div class="name_box">
+          <h1 > Treatments <i class="fa-solid fa-user-doctor" style="color: #07c514;"></i></h1>
+       
+        </div>
+      
+       
+      
+      </div>
+
+       
+       <div class="container" >
+       
+         <div class="servi_box">
+        <div class="servi_content">
+       <!-- servi_pic coding -->
+         <div class="pics"></div>
+         <!-- servi_pic coding end -->
+           <h4 style="color:green; text-align: center;"><b>Liver Diseases:</b></h4>
+           <li id="cont" style="padding-top: 22px;">Ayurvedic Liver Detoxification Therapies</li>
+           <li id="cont">Herbal Medications for Liver Health</li>
+           <li id="cont">Diet and Lifestyle Recommendations</li>
+         
+        </div>
+       
+        <div class="servi_content">
+         <!-- servi_pic coding -->
+         <div class="pics1"></div>
+         <!-- servi_pic coding end -->
+         <h4 style="color:green; text-align: center;"><b>Slip Disc (Herniated Disc) Services:</b></h4>
+         <li id="cont">Panchakarma Therapies for Spinal Health</li>
+         <li id="cont">Ayurvedic Massage and Heat Therapies</li>
+         <li id="cont">Herbal Medications for Pain and Inflammation</li>
+       
+       </div>
+       
+       <div class="servi_content">
+         <!-- servi_pic coding -->
+         <div class="pics2"></div>
+         <!-- servi_pic coding end -->
+         <h4 style="color:green; text-align: center;"><b>Metabolic Syndrome Management:</b></h4>
+         <li id="cont">Ayurvedic Dietary and Lifestyle Counseling</li>
+         <li id="cont">Herbal Remedies for Metabolic Balance</li>
+         <li id="cont">Panchakarma Detoxification</li>
+       
+       </div>
+       
+       
+       </div>
+       
+       <div class="servi_box2">
+       
+         <div class="servi_content">
+         <!-- servi_pic coding -->
+         <div class="pics3"></div>
+         <!-- servi_pic coding end -->
+           <h4 style="color:green; text-align: center;"><b>Sinusitis Services:</b></h4>
+           <li id="cont" style="padding-top: 22px;">Nasya Therapy (Nasal Medication)</li>
+           <li id="cont">Steam Inhalation (Swedana)</li>
+           <li id="cont">Herbal Remedies for Sinus Relief</li>
+         
+        </div>
+       
+        <div class="servi_content">
+         <!-- servi_pic coding -->
+         <div class="pics4"></div>
+         <!-- servi_pic coding end -->
+         <h4 style="color:green; text-align: center;"><b>Migraine And Other Headache Services:</b></h4>
+         <li id="cont">Ayurvedic Diet and Lifestyle Modifications</li>
+         <li id="cont">Nasya and Shirodhara Therapies</li>
+         <li id="cont">Herbal Remedies for Headache Relief</li>
+       
+       </div>
+       
+       <div class="servi_content">
+         <!-- servi_pic coding -->
+         <div class="pics5"></div>
+         <!-- servi_pic coding end -->
+         <h4 style="color:green; text-align: center;"><b>Varicosities 
+           (Siraja Granthi):</b></h4>
+         <li id="cont"  style="padding-top: 22px;">Ayurvedic Herbal Medications</li>
+         <li id="cont">Panchakarma Detoxification</li>
+         <li id="cont">Leg Massage and Herbal Compresses</li>
+       
+       </div>
+       
+       </div>
+
+       <!-- box3 -->
+
+       <div class="servi_box3">
+       
+        <div class="servi_content">
+          <!-- servi_pic coding -->
+          <div class="pics6"></div>
+          <!-- servi_pic coding end -->
+          <h4 style="color:green; text-align: center;"><b>Garbhadhana (Pre-Conception Care):</b></h4>
+          <li id="cont3"  style="padding-top: 22px;">Ayurvedic Guidance for Pre-Conception Planning</li>
+        <li id="cont3">Herbal Supplements for Fertility Enhancement</li>
+        
+        </div>
+        
+      
+       <div class="servi_content">
+        <!-- servi_pic coding -->
+        <div class="pics7"></div>
+        <!-- servi_pic coding end -->
+        <h4 style="color:green; text-align: center;"><b>Menstrual Issues And Menopause Management:</b></h4>
+        <li id="cont">Ayurvedic Approach to Menstrual Health</li>
+        <li id="cont">Herbal Formulas for Hormonal Balance</li>
+        <li id="cont">Yoga and Meditation for Stress Reduction</li>
+      
+      </div>
+      
+      <div class="servi_content">
+        <!-- servi_pic coding -->
+        <div class="pics8"></div>
+        <!-- servi_pic coding end -->
+        <h4 style="color:green; text-align: center;"><b>Infertility Services:</b></h4>
+        <li id="cont"  style="padding-top: 22px;">Ayurvedic Approach to Menstrual Health</li>
+        <li id="cont">Herbal Formulas for Hormonal Balance</li>
+        <li id="cont">Yoga and Meditation for Stress Reduction</li>
+      
+      </div>
+      
+      <div class="servi_content1">
+        <!-- servi_pic coding -->
+        <div class="pics9"></div>
+        <!-- servi_pic coding end -->
+          <h4 style="color:green; text-align: center;"><b>Insomnia And Sleep Disorders Services:</b></h4>
+          <li id="cont3" style="padding-top: 22px;">Relaxation and Meditation Techniques</li>
+          <li id="cont3">Shirodhara and Abhyanga Therapies</li>
+          <li id="cont3">Ayurvedic Herbal Formulas for Sleep</li>
+          <li id="cont3">Lifestyle Recomme.. for Sleep Improvement</li>
+          <li id="cont3">Pranayama (Breathing Exercises)</li>
+          <li id="cont3">Herbal Remedies to Enhance Respiratory Health</li>
+        
+       </div>
+
+      </div>
+       <br>
+ 
+
+       </div>
+       <br>
+       
+         <!--footer start  -->
+         <footer>
+          <div class="container-fluid foot" >
+           <div style="margin: auto;  font-size: 20px;">
+             <i class="fa-brands fa-facebook mx-2"></i> <i class="fa-solid fa-location-dot mx-2"></i> <i class="fa-brands fa-square-instagram mx-2"></i> <i class="fa-brands fa-youtube mx-2"></i>
+           </div>
+          
+           <p id="foot_cont"><b>© Copyright 2024. Shri Vedic Health Care. All Rights Reserved.</b></p>
+         
+           <p id="foot_cont">Made By Varun</p>
+          </div>
+         </footer>
+</body>
+</html>
